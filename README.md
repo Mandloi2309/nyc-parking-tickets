@@ -1,5 +1,4 @@
-## Seminar Distributed Data Mining (SDDM) @ Leiden University
+## NYC Parking Ticket Prediction Using Apache Spark ML
 
-# Final project: 
-
-Analysis of New York parking ticket data using distributed data mining techniques.
+_Poor traffic and parking management in large metropolitan cities negatively impacts our living conditions. Additionally, it can be a large source of revenue for these cities, amounting to half a billion dollars yearly in New York City. In this work, we analyze parking ticket data for the period 2015-2020 in NYC, aggregating it with weather, time, holiday and location features with the goal of predicting the number of tickets given hourly at a particular location. Due to the large volume of the original data and the existence of several data sources with different formats and frequencies, we constructed our pipeline in a distributed way using PySpark.
+    Our goal is not only to predict the number of parking tickets, but also to gain insight into the data and models by extracting feature importance, which can be valuable in the context of urban planning and traffic management._
